@@ -1,4 +1,5 @@
 <?php
 
-define('MASKED_DOMAIN', 'http://www.teamskeet.com/t1');
+define('MASKED_DOMAIN', 'http://www.google.com');
 define('PROXY_SUBFOLDER', 'reverseproxy');
+define('FOLLOW_LOCATION', FALSE);
