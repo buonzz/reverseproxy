@@ -1,0 +1,19 @@
+{
+	"name": "buonzz/reverseproxy",
+	"description": "PHP Script to perform Reverse Proxy Functionality",
+	"type": "project",
+	"authors": [
+        {
+            "name": "Darwin Biler",
+            "email": "buonzz@gmail.com"
+        }
+    ],
+	"keywords": ["reverseproxy", "proxy", "anonymous", "vpn", "bypass", "cache"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.2.0",
+		"ext-curl" : "*",
+		"lib-curl" : "*"
+	},		
+	"minimum-stability": "stable"
+}
