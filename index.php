@@ -36,7 +36,7 @@ if(isset($m[1]))
 	foreach($cookies as $key => $value)
 	{
 		$expire = time()+3600*24*30;
-		setcookie($key,$value,$expire,'/',".exxxtrasmall.com"); // set cookies again
+		setcookie($key,$value,$expire,'/',$_SERVER['HTTP_HOST']); // set cookies again
 	}
 }
 
